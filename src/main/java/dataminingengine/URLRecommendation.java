@@ -6,5 +6,9 @@ public class URLRecommendation {
 		// TODO Auto-generated method stub
 
 	}
+	
+	private void connectToMongo() {
+		
+	}
 
 }
