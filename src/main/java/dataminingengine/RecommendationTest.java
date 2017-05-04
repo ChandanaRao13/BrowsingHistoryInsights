@@ -17,7 +17,7 @@ public class RecommendationTest {
 		SparkConf sparkConf = new SparkConf().setAppName("JavaRecommendationExample").setMaster("local[*]");
         JavaSparkContext sc = new JavaSparkContext(sparkConf);
         
-        JavaRDD<String> data = sc.textFile("/PersonalFiles/MSSE/Semester3/CMPE239/Project/OtherDatasets/recommendation_test.txt");
+        JavaRDD<String> data = sc.textFile("recommendation_test.txt");
         JavaRDD<Rating> ratings = data.map(s -> {
             String[] sarray = s.split(" ");
             return new Rating(Integer.parseInt(sarray[0]),
