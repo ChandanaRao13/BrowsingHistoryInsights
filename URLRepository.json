@@ -1,0 +1,7 @@
+{"_id":{"$oid":"590bc5685bda6add72281af7"},"URLId":100,"URLDomainName":"www.google.com","URLCategory":"Other"}
+{"_id":{"$oid":"590bc58e5bda6add72281b0a"},"URLId":200,"URLDomainName":"www.responsivemiracle.com","URLCategory":"Education"}
+{"_id":{"$oid":"590bc5a25bda6add72281b0c"},"URLId":300,"URLDomainName":"mongodb.github.io","URLCategory":"Education"}
+{"_id":{"$oid":"590bc6335bda6add72281b3a"},"URLId":400,"URLDomainName":"developer.chrome.com","URLCategory":"Technology"}
+{"_id":{"$oid":"590bc6335bda6add72281b3c"},"URLId":500,"URLDomainName":"maxartkiller.in","URLCategory":"Entertainment"}
+{"_id":{"$oid":"590bc66e5bda6add72281b53"},"URLId":600,"URLDomainName":"angular-tutorial.quora.com","URLCategory":"Technology"}
+{"_id":{"$oid":"590bc66e5bda6add72281b55"},"URLId":700,"URLDomainName":"newtab","URLCategory":"Other"}
