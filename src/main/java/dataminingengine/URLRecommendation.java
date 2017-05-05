@@ -62,7 +62,8 @@ public class URLRecommendation {
 		JavaPairRDD<String,Integer> counts = lines
 				.mapToPair(line -> new Tuple2<>(line,1))
 				.reduceByKey((a,b)->a+b);
-		counts.saveAsTextFile("output1.text");
+		JavaRDD<String> output = counts.map(a -> a._1 + "," + a._2);
+		output.saveAsTextFile("output1.txt");
 
 		//aggregatedRdd.saveAsTextFile("/PersonalFiles/MSSE/Semester3/CMPE239/Project/OtherDatasets/sample.txt");
 
