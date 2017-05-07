@@ -37,6 +37,7 @@ import scala.Tuple2;
 public class URLRecommendation {
 	public static void main( String[] args ) throws InterruptedException, IOException, TasteException
 	{
+		System.out.println("Entered Recommednation module...");
 		// Creating spark configuration 
 		SparkSession sparkSessionObject = SparkSession.builder()
 				.master("local")
